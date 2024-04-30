@@ -1,5 +1,5 @@
 # Sitegeist.CookieBouncer 
-## Whitelist cookies before the Flowpack.FullPaheCache Middleware
+## Filter cookies before the Flowpack.FullPageCache middleware
 
 ### Authors & Sponsors
 
