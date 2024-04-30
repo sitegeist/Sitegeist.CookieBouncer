@@ -16,7 +16,7 @@ Sitegeist:
     # List of cookies that are allowed
     allowPatterns: []
 
-    # List of cookies to always be rejected. By default we allow none.
+    # List of cookies to always be rejected. By suggest to reject all.
     # !!! The Neos-Session cookie is always allowed !!! 
     denyPatterns: ['*']
 ```
