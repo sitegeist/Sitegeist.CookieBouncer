@@ -1,0 +1,14 @@
+Neos:
+  Flow:
+    http:
+      middlewares:
+        'Sitegeist.CookieBouncer:CookieBouncerMiddleware':
+          middleware: 'Sitegeist\CookieBouncer\CookieBouncerMiddleware'
+          position: 'before fullPageRequestCache'
+Sitegeist:
+  CookieBouncer:
+    # List of cookies that are allowed.
+    # !!! The Neos-Session cookie is always allowed !!!
+    allowPatterns: []
+    # List of cookies to always be rejected
+    denyPatterns: []
