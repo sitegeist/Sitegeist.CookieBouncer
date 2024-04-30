@@ -13,10 +13,10 @@
 ```yaml
 Sitegeist:
   CookieBouncer:
-    # List of cookies that are allowed
+    # List of cookies that are allowed. Add cookies that are needed by the backend here.
     allowPatterns: []
 
-    # List of cookies to always be rejected. By suggest to reject all.
+    # List of cookies to always be rejected. We suggest to reject all.
     # !!! The Neos-Session cookie is always allowed !!! 
     denyPatterns: ['*']
 ```
